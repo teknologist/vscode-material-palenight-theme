@@ -19,12 +19,24 @@ _The font used in the screenshot is [Operator Mono](https://www.typography.com/f
 ## Installation
 If you're a terminal guru 👻, launch a window and type:
 ```shell
-ext install material-palenight-theme
+~~ext install material-palenight-theme~~
 ```
 
-Or, inside VS Code select Extensions and then search for this theme.
+First clone this repostory.
+Then build the vsix package with : 
+```shell
+vsce package
+```
+(install vsce if needed with npm install -g vsce)
 
-**There's also an [Atom version](https://atom.io/themes/material-palenight-syntax) of this theme created by [me](https://twitter.com/whizkydee).**
+Then you can install the vsix package with : 
+```shell
+code --install-extension  material-palenight-theme-1.0.7.vsix
+```
+
+~~Or, inside VS Code select Extensions and then search for this theme.~~
+
+~~**There's also an [Atom version](https://atom.io/themes/material-palenight-syntax) of this theme created by [me]~~(https://twitter.com/whizkydee).**~~
 
 ## Operator Mono Font Variant
 If you ❤️️ Operator Mono font, there's a variant of this theme that supports it. Just select "Material Palenight Theme for Operator Mono" from the themes list. It's gorgeous!
