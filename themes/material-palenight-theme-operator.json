@@ -1,5 +1,5 @@
 {
-	"name": "Material Palenight for Operator Mono",
+	"name": "Material Palenight for Operator Mono with FiraCode Ligatures",
 	"author": "Olaolu Olawuyi",
 	"maintainers": [
 		"Olaolu Olawuyi <whiskydee@gmail.com>"
@@ -770,13 +770,6 @@
 			}
 		},
 		{
-			"name": "Keyword Operator Comparison",
-			"scope": "keyword.operator.comparison",
-			"settings": {
-				"foreground": "#c792ea"
-			}
-		},
-		{
 			"name": "JavaScript Variable Parameter Function",
 			"scope": "variable.parameter.function.js",
 			"settings": {
@@ -1172,6 +1165,33 @@
 			"settings": {
 				"fontStyle": "italic"
 			}
+		},
+		{
+			"name": "Arrow function",
+			"scope": "storage.type.function.arrow.js",
+			"settings": {
+				"foreground": "#cca1e8",
+				"fontStyle": "normal"
+			}
+		},
+		{
+			"name": "Keyword Operator Comparison",
+			"scope": "keyword.operator.comparison.js",
+			"settings": {
+				"foreground": "#cca1e8",
+				"fontStyle": "normal"
+
+			}
+		},
+		{
+			"name": "Keyword Operator Comparison",
+			"scope": "keyword.operator.relational",
+			"settings": {
+				"foreground": "#cca1e8",
+				"fontStyle": "normal"
+
+			}
 		}
+
 	]
 }

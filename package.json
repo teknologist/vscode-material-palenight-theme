@@ -1,15 +1,15 @@
 {
   "name": "material-palenight-theme",
-  "publisher": "whizkydee",
-  "author": "Olaolu Olawuyi <whiskydee@gmail.com> (http://whizkydee.github.io)",
-  "displayName": "Material Palenight Theme",
-  "version": "1.0.6",
+  "publisher": "teknologist",
+  "author": "The Teknologist",
+  "displayName": "Material Palenight Theme Fork",
+  "version": "1.0.7",
   "description": "An elegant and minimal material syntax theme for VSCode.",
   "galleryBanner": {
     "color": "#31364A",
     "theme": "dark"
   },
-  "icon": "icon.svg",
+  "icon": "icon.png",
   "keywords": [
     "syntax",
     "theme",
@@ -18,11 +18,11 @@
     "dark"
   ],
   "repository": {
-    "url": "https://github.com/whizkydee/vscode-material-palenight-theme",
+    "url": "https://github.com/teknologist/vscode-material-palenight-theme",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/whizkydee/vscode-material-palenight-theme/issues"
+    "url": "https://github.com/teknologist/vscode-material-palenight-theme/issues"
   },
   "license": "MIT",
   "engines": {
@@ -34,12 +34,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "Material Palenight",
+        "label": "Material Palenight Fork",
         "uiTheme": "vs-dark",
         "path": "./themes/material-palenight-theme.json"
       },
       {
-        "label": "Material Palenight for Operator Mono",
+        "label": "Material Palenight for Operator Mono with FiraCode Ligatures",
         "uiTheme": "vs-dark",
         "path": "./themes/material-palenight-theme-operator.json"
       }
