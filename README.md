@@ -18,9 +18,8 @@ _The font used in the screenshot is [Operator Mono](https://www.typography.com/f
 
 ## Installation
 If you're a terminal guru 👻, launch a window and type:
-```shell
+
 ~~ext install material-palenight-theme~~
-```
 
 First clone this repostory.
 Then build the vsix package with : 
