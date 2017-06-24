@@ -1,6 +1,6 @@
 # VS Code Material Palenight Theme Fork
 
-## For of [Material Palenight](https://github.com/whizkydee/vscode-material-palenight-theme) Modifier font color for ligature characters to enable FiraCode with custom css extension (css class .mtk27)
+## Fork of [Material Palenight](https://github.com/whizkydee/vscode-material-palenight-theme) Modifier font color for ligature characters to enable FiraCode with custom css extension (css class .mtk27)
 ## You can do it with:
 ```
 .editor-container .mtk27 {
